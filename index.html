@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class = "calculator">
+            <div class = "result">0</div>
+            <div class = "calculator_keybr">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <!--The operator class is use to seperate the operator keys from number in the script code -->
+                <!--The same applied to the data-action but within the operator group-->
+                <button class = "operator" data-action ="multiply"> &times; </button>
+
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class = "operator"  data-action="substract">-</button>
+
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class = "operator" data-action="add">+</button>
+
+                <button data-action = "negative">(-)</button>
+                <button>0</button>
+                <button data-action = "decimal">.</button>                
+                <button class = "operator" data-action="divide"> &divide; </button>
+
+                <button data-action = "clear"> AC </button>
+                <button data-action = "delete"> DEL </button>
+                <button class = "equal" data-action = "calculate">=</button>
+            </div>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>

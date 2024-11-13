@@ -1,0 +1,40 @@
+.calculator {
+    height: 50%;
+    width: 60%;
+    padding-top: 20%;
+}
+
+.calculator_keybr {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/*Color for all the operator class keys */
+.operator { 
+    background-color: #457b9d;
+}
+
+.equal {
+    background-color: #e63946;
+}
+
+button {
+    background-color: #f1faee;
+    height: 50px;
+    font-size: 20px;
+}
+
+body {
+    background-color: #1d3557;
+    justify-content: center; /*place the body in the center*/
+    display: flex;
+    
+}
+
+.result {
+    background-color: #a8dadc;
+    text-align: right;
+    font-size: 30px;
+}
+
